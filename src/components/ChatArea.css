@@ -1,0 +1,21 @@
+.chat{
+    width: 100%;
+    height: 100%;
+}
+
+.msg-p, .msg-u{
+    text-align: end;
+    margin-bottom: 1em;
+}
+
+.msg-p{
+    background-color: blueviolet;
+    margin-right: 20%;
+    border-radius: 0em 1em 1em 0em;
+}
+
+.msg-u{
+    background-color: cadetblue;
+    margin-left: 20%;
+    border-radius: 1em 0em 0em 1em;
+}

@@ -1,0 +1,23 @@
+.search-bar-container{
+    display: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+}
+
+.close-search{
+    color: black;
+}
+
+#search-area{
+    max-width: 70%;
+    border: none;
+    background-color: rgba(118, 0, 235, 0);
+}
+#search-area:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
